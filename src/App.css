@@ -1,0 +1,85 @@
+.common{
+  width: 100%;
+  height: 200vh;
+  background-color: gray;
+  padding-top: 50px;
+}
+.cv{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+}
+.up{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+.up .img{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+}
+.up .img img{
+  width: 100%;
+  height: 400px;
+}
+.up .text{
+  background-color: lightgray;
+  width: 100%;
+  height: 400px;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.up .text p{
+  font-size: 20px;
+}
+.cv .up .name{
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  bottom: 0px;
+  padding-left: 60px;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  opacity: 0.8;
+}
+.cv .down{
+  display: flex;
+  width: 100%;
+  height: 1000px;
+}
+.down .left{
+  width: 100%;
+  height: 1000px;
+  background-color: lightgray;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.down .left label{
+  font-size: 20px;
+}
+.down .left span{
+  font-size: 20px;
+  display: block;
+}
+.down a{
+  text-decoration: none;
+  color: black;
+}
+.down .line{
+  width: 85%;
+  height: 2px;
+  background-color: black;
+}
+.down ul li{
+  font-size: 20px;
+}
+.down .right{
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 50px;
+}
